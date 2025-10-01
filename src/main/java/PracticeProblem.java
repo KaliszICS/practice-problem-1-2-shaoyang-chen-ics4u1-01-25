@@ -26,7 +26,7 @@ public class PracticeProblem {
 			return 0;
 		}
 	}
-	public static int saveConvertStringtoInt(String input) {
+	public static int safeConvertStringtoInt(String input) {
 		int result = 0;
 		try{
 			result = Integer.parseInt(input);
